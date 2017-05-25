@@ -1,19 +1,22 @@
-[Main Reference]
-1. https://developer.android.com/training/index.html
-2. https://www.udacity.com/courses/android
+# Android Training
 
 
-# activity
+## activity
 - MainActivity.java
 This is the main activity (the entry point for your app). When you build and run the app, the system launches an instance of this Activity and loads its layout.
 
 
-# layout
+## layout
 - activity_main.xml
 
-# manifests
+## manifests
 - AndroidManifest.xml
 
-# Gradle scripts
+## Gradle scripts
 - build.gradle
 Mostly work with the module's build.gradle file to configure how the Gradle tools compile and build your app
+
+
+[Main Reference]
+1. https://developer.android.com/training/index.html
+2. https://www.udacity.com/courses/android 

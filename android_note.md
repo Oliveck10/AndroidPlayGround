@@ -2,7 +2,7 @@
 
 # [Tutorials]
 - TextView
-	- dp: replace pixel with same finger touchable range
+	- dp: replace pixel displayed techniques with same finger touchable range
 
 
 -------------------------

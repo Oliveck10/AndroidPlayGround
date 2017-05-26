@@ -1,5 +1,12 @@
 # Android Training
 
+# [Tutorials]
+- TextView
+	- dp: replace pixel with same finger touchable range
+
+
+
+# [Official Guide]
 
 ## Activity
 - MainActivity.java

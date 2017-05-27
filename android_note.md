@@ -3,6 +3,7 @@
 # [Tutorials]
 - TextView
 	- dp: replace pixel displayed techniques with same finger touchable range
+	- layout_width/height: Wrap\_content (match content size)
 
 
 -------------------------

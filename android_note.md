@@ -2,7 +2,7 @@
 
 # [Tutorials]
 - TextView
-	- dp(pics) / sp(fonts): replace pixel displayed techniques with same finger touchable range around different devices ([ref](https://material.io/guidelines/style/typography.html#typography-styles))
+	- dp(pics) / [sp(fonts)](https://material.io/guidelines/style/typography.html#typography-styles): replace pixel displayed techniques with same finger touchable range around different devices
 	- layout_width/height = wrap\_content (match content size)
 
 

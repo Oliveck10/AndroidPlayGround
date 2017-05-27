@@ -2,7 +2,7 @@
 
 # [Tutorials]
 - TextView
-	- dp: replace pixel displayed techniques with same finger touchable range
+	- dp(pics)/sp(fonts): replace pixel displayed techniques with same finger touchable range around different devices (ref:material desing spec)
 	- layout_width/height = wrap\_content (match content size)
 
 

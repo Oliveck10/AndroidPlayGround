@@ -1,5 +1,5 @@
 /* 
-    The first app for kotlin tutorials
+    The first hello world app for kotlin tutorials
 */
 
 fun main(args:Array<String>) {

@@ -8,4 +8,9 @@
     android:paddingBottom="16dp">
 
 
+    <ListView
+        android:id="@+id/activity_main_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
 </RelativeLayout>

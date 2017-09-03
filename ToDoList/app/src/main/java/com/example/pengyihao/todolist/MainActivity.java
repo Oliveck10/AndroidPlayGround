@@ -2,6 +2,7 @@ package com.example.pengyihao.todolist;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ListView;
 import android.support.annotation.Nullable;
 
 /**
@@ -16,6 +17,12 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main); // contentview populate to the file activity_main.xml
+
+
+
+
+        ListView listview = (ListView) findViewById(R.id.activity_main_listview);
+        ListView.setAdapter(adapter);
 
     }
 

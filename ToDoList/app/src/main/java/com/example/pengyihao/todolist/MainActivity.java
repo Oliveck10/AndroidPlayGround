@@ -12,6 +12,8 @@ import android.support.annotation.Nullable;
 // Activity is one of the classes under android SDK
 public class MainActivity extends Activity {
 
+    private StringAdapter mAdapter;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,10 +21,10 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main); // contentview populate to the file activity_main.xml
 
 
-
+        mAdapter = new StringAdapter(this, R.layout.list_item, R.id.list_item_textview);
 
         ListView listview = (ListView) findViewById(R.id.activity_main_listview);
-        ListView.setAdapter(adapter);
+        ListView.setAdapter(mAdapter);
 
     }
 

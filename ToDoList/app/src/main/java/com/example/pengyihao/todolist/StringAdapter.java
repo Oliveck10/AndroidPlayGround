@@ -44,13 +44,27 @@ public class StringAdapter extends ArrayAdapter<String> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
+        ViewHolder viewHolder;
+
         if (convertView == null) {
             convertView = mLayoutInflater.inflate(mResource, null);
+            viewHolder = new ViewHolder();
+            viewHolder.itemTextView = (TextView) convertView.findViewById(mTextViewResource);
+            convertView.setTag(viewHolder);
         }
-        TextView textView = (TextView) convertView.findViewById(mTextViewResource);
-        String item = mItems.get(position);
-        textView.setText(item);
+
+        else{
+            viewHolder = (ViewHolder) convertView.getTag();
+        }
+
+        final String item = mItems.get(position);
+        viewHolder.itemTextView.setText(item);
 
         return convertView;
+    }
+
+    static class ViewHolder{
+        TextView itemTextView;
     }
 }

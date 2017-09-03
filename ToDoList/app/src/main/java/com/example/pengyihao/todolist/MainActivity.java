@@ -23,8 +23,8 @@ public class MainActivity extends Activity {
 
         mAdapter = new StringAdapter(this, R.layout.list_item, R.id.list_item_textview);
 
-        ListView listview = (ListView) findViewById(R.id.activity_main_listview);
-        ListView.setAdapter(mAdapter);
+        ListView listView = (ListView) findViewById(R.id.activity_main_listview);
+        listView.setAdapter(mAdapter);
 
     }
 
